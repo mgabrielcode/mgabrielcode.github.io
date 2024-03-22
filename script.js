@@ -9,7 +9,7 @@ menuBtn.addEventListener('click', ()=>{
     } else {
         menuNav.style.display = "none";
     }
-})
+});
 
 
 (function(){
@@ -21,6 +21,5 @@ menuBtn.addEventListener('click', ()=>{
             menuNav.style.display = "none";
         })
     }
-s 
 })();
 
