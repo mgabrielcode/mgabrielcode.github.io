@@ -49,6 +49,7 @@ ul {
     flex-direction: column;
     align-items: center;
     list-style: none;
+    justify-content: space-between;
 }
 
 li {
@@ -63,6 +64,7 @@ li {
 li a{
     text-decoration: none;
     color: inherit;
+
 }
 
 .is-active {
@@ -157,9 +159,7 @@ li a{
     display: flex;
     flex-direction: column;
     height: 70vh;
-    align-items: center;
-    position: relative;
-    top: 80px;   
+    align-items: center; 
 }
 
 .logo-home-2 {
