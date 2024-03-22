@@ -17,17 +17,17 @@
             <img class="logo-red" src="/images/logo-red.png" alt="">
             <img class="menu-icon" src="/images/menu-nav.png" alt="">
         </div>
-        <nav>
+        <nav style="display: none;">
             <ul>
-                <li class="is-active"><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Contato</a></li>
+                <li class="is-active" data-switcher="1"><a href="#home">Home</a></li>
+                <li><a href="#about" data-switcher="2">Sobre</a></li>
+                <li><a href="#" data-switcher="3">Contato</a></li>
             </ul>
         </nav>  
     </header>
 
     <main>
-        <div class="home">
+        <div class="home" id="home">
             <h2 class="titulo-home">
                 <p>Tudo que você</p>
                 <span> precisa </span> 
@@ -47,6 +47,51 @@
                 </h2>
             </div>
         </div>
+
+        <div class="about" id="about">
+            <div class="about-text">
+                <h2>Quem somos</h2>
+                <p>
+                    Se um dos seus sonhos é construir ou reformar, então bem-vindo a BETEL construções. Somos uma loja com matriz em Bom Jesus-Pi e filial em Cristino Castro, <strong>somos referência em varejo e atacado de material de construção</strong> e somos apaixonados por obras, temos tudo o que você precisa para criar ou reformar o espaço dos seus sonhos. Mantendo se conectada às demandas de consumo desde a sua criação em  2017, a BETEL construções detém um diversificado mix de produtos para a construção, tem em seu portfólio algumas das maiores e melhores marcas, entendemos que toda construção passa por adequações, sendo assim, sair dos planos também faz parte dos nossos planos. Conte sempre com a BETEL construções e comece a tirar hoje mesmo seu sonho do papel com a gente.
+                </p>
+            </div>
+        </div>
+
+        <div class="about-details">
+            <div class="missao">
+                <span class="fluent--target-arrow-16-filled"></span>
+                <h3>Missão</h3>
+                <p>
+                    Proporcionar o produto ideal para atender a necessidade do cliente em todas as etapas da construção de um sonho ou objetivo. 
+                </p>
+            </div>
+
+            <div class="visao">
+                <span class="gravity-ui--rocket"></span>
+                <h3>Visão</h3>
+                <p>
+                    Nos tornar referência em qualidade e vendas de materiais de construção no Piauí. Com foco nos colaboradores e alinhado a tecnologia para entregar a melhor experiência ao cliente.
+                </p>
+            </div>
+
+            <div class="valores">
+                <span class="fa--check"></span>
+                <h3>Valores</h3>
+                <p>
+                    <strong>Comprometimento com a melhoria contínua:</strong> Conhecer e ouvir o cliente é a melhor forma de desenvolver soluções que superem suas expectativas. 
+                </p>
+                <p>
+                    <strong>Ética e respeito com o próximo:</strong> A ética e o respeito são valores fundamentais para o sucesso.
+                </p>
+                <p>
+                    <strong>Equipe unida e feliz:</strong> O trabalho em equipe divide a tarefa e multiplica o sucesso. 
+                </p>
+                <p>
+                    <strong>Foco no Cliente:</strong> Buscamos sempre garantir a satisfação do consumidor.
+                </p>
+            </div>
+        </div>
+
     </main>
     <script src="script.js"></script>
 </body>
