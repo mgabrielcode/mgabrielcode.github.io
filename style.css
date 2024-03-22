@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    height: 70px;
+    box-shadow: 0px -10px 30px 2px rgba(0, 0, 0, .3);
+}
+
+.header-bar {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 1.5rem;
+    z-index: 2;
+}
+
+.logo-red {
+    height: 50%;
+}
+
+nav {
+    background-color: #ffffff;
+    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 70px;
+    padding: 15px 0 35px 0;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0px -10px 30px 2px rgba(0, 0, 0, .3);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin: 5px 0 5px 0;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #DF0209;
+    text-transform: uppercase;
+}
+
+.is-active {
+    color: #ffffff;
+    background-color: #DF0209;
+    border-radius: 20px;
+}
+
+
+/*
+
+.home {
+    position: relative;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    box-shadow: inset 6px 0px 200px 62px rgba(0, 0, 0, .7);
+    background-image: 
+        linear-gradient(rgba(223, 2, 9, .7), rgba(223, 2, 9, .7)), 
+        url("/images/bg-home-mobile.png");
+    opacity: .895;    
+    background-size: cover;
+    background-position: 80% 0%;
+}
+
+*/
+
+.home {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: inset 6px 0px 200px 62px rgba(0, 0, 0, .7);
+    background-image: 
+        linear-gradient(180deg, rgba(223, 2, 9, .7), rgba(223, 2, 9, .7)),
+        /*url("/images/bg-home-mobile.png");*/
+        url("/images/Imagem\ do\ WhatsApp\ de\ 2024-03-22\ à\(s\)\ 10.24.55_2aec678e.jpg");
+    opacity: .895;    
+    background-size: cover;
+    background-position: 60% 40%;
+}
+
+
+.titulo-home {
+    z-index: 1;
+}
+
+
+
+.titulo-home p{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, .4);
+    margin: -15px 0;
+}
+
+.titulo-home span {
+    color: #FFE500;
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.home-2 {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    position: relative;
+    top: 80px;   
+}
+
+.logo-home-2 {
+    
+    margin: 150px 0px 60px 0px;
+    height: 100px;
+}
+
+.div-title-home-2 {
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+.titulo-home-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    border-radius: 2.5rem;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .25);
+}
+
+.titulo-home-2 p{
+    color: #DF0209;
+    font-size: 35px;
+    font-weight: 400;
+    margin: -5px 0;
+}
+
+.titulo-home-2 span{
+    font-weight: 800;
+}
