@@ -296,11 +296,11 @@ a {
 }
 
 .channels-communication .email, .whatsapp, .instagram {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     color: #df0209;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
-    padding: 15px 22px;
+    padding: 15px 18px;
     border-radius: 20px;
     margin: 10px 0;
     display: flex;
@@ -310,10 +310,10 @@ a {
 
 .mingcute--whatsapp-fill::after, .ic--baseline-email::after, .ri--instagram-fill::after {
     display: inline-block;
-    width: 2.5em;
+    width: 2em;
     height: 1em;
     vertical-align: -0.125em;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .mingcute--whatsapp-fill::after {
