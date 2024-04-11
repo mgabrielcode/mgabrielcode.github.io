@@ -81,17 +81,16 @@ a {
 .home-title {
   margin-top: 120px;
   z-index: 1;
-}
-
-.home-title p {
   color: #ffffff;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
   font-weight: 500;
   margin: -15px 0;
   font-size: 35px;
+  white-space: pre-line;
+  line-height: 45px;
 }
 
-.home-title span {
+.home-title .highlight {
   color: #ffe500;
   font-weight: 700;
   font-size: 65px;
@@ -111,14 +110,17 @@ a {
 
 .home-section-div h2 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-}
-
-.home-section-div p {
+  white-space: pre-line;
+  justify-content: center;
+  line-height: 35px;
+  text-align: center;
   color: #df0209;
   font-size: 35px;
   font-weight: 400;
+}
+
+.home-section-div p {
   margin: -5px 0;
 }
 
@@ -270,7 +272,7 @@ a {
 .channels-communication .email,
 .whatsapp,
 .instagram {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #df0209;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
@@ -470,6 +472,10 @@ footer .address .matriz,
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
   }
 
+  .channels-communication {
+    width: 80%;
+  }
+
   footer {
     align-items: center;
   }
@@ -537,10 +543,15 @@ footer .address .matriz,
 
   .home-title p {
     font-size: 45px;
+    line-height: 60px;
   }
 
-  .home-title span {
-    font-size: 75px;
+  .home-section {
+    height: 90vh;
+  }
+
+  .home-title .highlight {
+    font-size: 90px;
   }
 
   .home-section-div {
@@ -587,6 +598,7 @@ footer .address .matriz,
 
   .header-bar {
     width: auto;
+    padding: 0;
   }
 
   .header-bar .logo-red {
@@ -634,12 +646,13 @@ footer .address .matriz,
     top: 4.375rem;
   }
 
-  .home-title p {
+  .home-title {
     font-size: 2.8125rem;
     margin: -26px 0;
+    line-height: 60px;
   }
 
-  .home-title span {
+  .home-title .highlight {
     font-size: 5.5rem;
   }
 
@@ -650,14 +663,16 @@ footer .address .matriz,
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
     margin: 4rem 11.25rem;
     padding: 0 6rem 0 6rem;
+    height: 60vh;
   }
 
   .home-section-logo img {
-    height: 120px;  
+    height: 135px;  
   }
 
   .home-section-div p {
-    font-size: 2.8125rem;
+    font-size: 3.125rem;
+    line-height: 45px;
   }
 
   .about {
@@ -672,6 +687,7 @@ footer .address .matriz,
   .about-details {
     flex-direction: row;
     padding: 4rem 11.25rem;
+    margin-top: 6rem;
     font-size: 14px;
     gap: 0.475rem;
   }
@@ -726,7 +742,7 @@ footer .address .matriz,
   }
 
   footer img {
-    width: 30%;
+    width: 20%;
     margin-bottom: 10px;
   }
 
